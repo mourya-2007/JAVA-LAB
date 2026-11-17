@@ -41,20 +41,17 @@ public class Main {
         BankAccount account1 = new BankAccount(101, "Raghav", 5000);
         BankAccount account2 = new BankAccount(102, "Rahul", 8000);
 
-        // Account 1 operations
         account1.deposit(2000);
         account1.withdraw(1000);
 
-        // Account 2 operations
         account2.deposit(3000);
         account2.withdraw(2000);
 
-        // Display Account 1 details
+
         System.out.println("\nAccount 1 Details:");
         account1.displayDetails();
         account1.checkBalance();
 
-        // Display Account 2 details
         System.out.println("\nAccount 2 Details:");
         account2.displayDetails();
         account2.checkBalance();
